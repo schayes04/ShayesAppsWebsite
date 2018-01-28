@@ -1,0 +1,33 @@
+/* =================================================================== */
+/* Blue #169fe6
+====================================================================== */
+
+#top-line { background: #169fe6; }
+#current { background-color: #169fe6; border-right: 1px solid #169fe6; }
+.ls-fullwidth .ls-nav-next:hover,
+.ls-fullwidth .ls-nav-prev:hover { background-color: #169fe6; }
+.caption-color { background: #169fe6; }
+.flexslider .flex-next:hover,
+.flexslider .flex-prev:hover { background-color: #169fe6; }
+.arl.active:hover,
+.arr.active:hover { background-color: #169fe6; }
+.portfolio-item:hover > figure > .item-description { border-top: 5px solid #169fe6; }
+.highlight.color,
+.skill-bar-content { background: #169fe6; }
+.dropcap,
+#breadcrumbs ul li a { color: #169fe6; }
+.search-btn-widget { background-color: #169fe6; }
+.tags a:hover { background: #169fe6; }
+.latest-post-blog img:hover { background: #169fe6; border: 1px solid #169fe6; }
+.selected { color: #169fe6 !important; }
+.filters-dropdown.active,
+#portfolio-navi a:hover { background-color: #169fe6; }
+.button.gray:hover,
+.button.light:hover,
+.button.color,
+input[type="button"],
+input[type="submit"],
+input[type="button"]:focus,
+input[type="submit"]:focus { background:#169fe6; }
+.tabs-nav li.active a { border-top: 1px solid #169fe6; }
+.pagination .current { background: #169fe6 !important; }
