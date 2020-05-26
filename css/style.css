@@ -528,9 +528,9 @@ span.time{font-size:12px;font-weight:200;opacity:0.6;}
 .copyright{color:#aaa;}
 .copyright a,
 .copyright span{color:#eee !important;}
-.privacy{color:#aaa;}
-.privacy a,
-.privacy span{color:#eee !important;}
+.policies{color:#aaa;}
+.policies a,
+.policies span{color:#eee !important;}
 #sub-menu{float:right;font-size:11px;}
 #sub-menu ul li a{color:#aaa;}
 #sub-menu ul li a:hover{color:#eee;}
