@@ -10,6 +10,7 @@
 .social-icons li a{display:block;padding-left:11px;height:16px;width:16px;}
 .social-icons li:hover{opacity:1;}
 .twitter{background:url(../images/social/twitter.png) no-repeat 50%;}
+.instagram{background:url(../images/social/instagram.png) no-repeat 50%;}
 .facebook{background:url(../images/social/facebook.png) no-repeat 50%;margin:0 -4px;}
 #navigation{height:49px;width:1040px;margin-left:-10px;background-color:#4c4c4c;float:left;left:1px;}
 .style-2 .left-corner,
@@ -667,5 +668,6 @@ ol li ol.childlist .comment-des{float:right;width:47%;}
 .check-list li{background:url(../images/icon-list-check@2x.png) no-repeat 0% 3px;padding:0 0 0 18px;background-size:13px 11px;}
 .star-list li{background:url(../images/icon-list-star@2x.png) no-repeat 0% 3px;padding:0 0 0 18px;background-size:12px;}
 .twitter{background:url(../images/social/twitter@2x.png) no-repeat 50%;background-size:50%;}
+.instargram{background:url(../images/social/instagram@2x.png) no-repeat 50%;background-size:50%;}
 .facebook{background:url(../images/social/facebook@2x.png) no-repeat 50%;margin:0 -4px;background-size:50%;}
 }
