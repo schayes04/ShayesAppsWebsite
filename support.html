@@ -35,7 +35,6 @@
 <script src="scripts/jquery.isotope.min.js"></script>
 <script src="scripts/jquery.jcarousel.js"></script>
 <script src="scripts/jquery.fancybox.min.js"></script>
-<script src="scripts/jquery.layerslider.min.js"></script>
 <script src="scripts/custom.js"></script>
 
 <body>
@@ -268,14 +267,9 @@
 		<!-- Twitter -->
 		<div class="five columns">
 			<h4>Twitter</h4>
-			<ul id="twitter"></ul>
-				<script>
-					jQuery(document).ready(function($){
-					$.getJSON('twitter.php?url='+encodeURIComponent('statuses/user_timeline.json?screen_name=shayesapps&count=1'), function(tweets){
-						$("#twitter").html(tz_format_twitter(tweets));
-					}); });
-				</script>
-			<div class="clearfix"></div>
+			<a class="twitter-timeline" href="https://twitter.com/shayesapps" data-tweet-limit="1" data-width="300"
+			data-height="150" data-chrome="nofooter noheader transparent noborders noscrollbar" data-theme="dark" data-cards="hidden"></a>
+			<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
 
 	</div>

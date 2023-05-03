@@ -73,7 +73,7 @@ ul.cols1 p a, ul.cols2 p a, ul.cols3 p a, ul.cols4 p a, ul.cols5 p a{padding:0;}
 .ls-inner{position:relative;background-position:center center;}
 .ls-inner,
 .ls-layer{width:100%;height:100%;}
-.ls-layer{position:absolute;display:none;background-position:center center;overflow:hidden;}
+.ls-layer{position:absolute;background-position:center center;overflow:hidden;}
 .ls-layer *{margin:0px;line-height:normal;}
 .ls-active,
 .ls-animating{display:block !important;}
@@ -109,7 +109,6 @@ ul.cols1 p a, ul.cols2 p a, ul.cols3 p a, ul.cols4 p a, ul.cols5 p a{padding:0;}
 .ls-debug-console li:hover ul{display:block;}
 .ls-debug-console li ul *{color:black !important;}
 .ls-debug-console a{text-decoration:none !important;border-bottom:1px dotted white !important;}
-#layerslider-container{background:url(../images/layerslider-loader.gif) no-repeat center;}
 .ls-fullwidth .ls-nav-prev,
 .ls-fullwidth .ls-nav-next,
 .ls-fullwidth .ls-playvideo,
@@ -120,8 +119,6 @@ ul.cols1 p a, ul.cols2 p a, ul.cols3 p a, ul.cols4 p a, ul.cols5 p a{padding:0;}
 .ls-fullwidth .ls-nav-next{background:url(../images/slider-right.png) no-repeat 50%;background-color:#4c4c4c;right:0;border-radius:2px 0 0 2px;}
 .ls-fullwidth .ls-nav-next:hover,
 .ls-fullwidth .ls-nav-prev:hover{background-color:#169fe6;}
-.ls-fullwidth .ls-playvideo{width:50px;height:50px;display:block;margin-left:-25px;margin-top:-25px;background:url(../images/layerslider-video.png) no-repeat 50%;opacity:0.8;}
-.ls-fullwidth .ls-playvideo:hover{opacity:1;}
 .caption-gray,
 .caption-color,
 .caption-transparent{padding:18px 22px;color:#fff;font-size:14px;font-weight:600;border-radius:2px;box-shadow:inset 0px -1px 0px 0px rgba(0,0,0, 0.1);}
@@ -525,7 +522,8 @@ span.time{font-size:12px;font-weight:200;opacity:0.6;}
 #footer-bottom{background:#424242;width:1020px;padding:15px 0;margin:0 auto;font-size:12px;}
 #footer, #footer p, #footer a{color:#ddd;}
 #footer a:hover{color:#fff;}
-#footer h4{padding:0;margin:0 0 15px 0;font-size:14px;color:#fff;}
+#footer h4{padding:0;margin:0 0 0 0;font-size:14px;color:#fff;}
+ul.contact-details-alt{margin-top: 15px;}
 .copyright{color:#aaa;}
 .copyright a,
 .copyright span{color:#eee !important;}
