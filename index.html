@@ -36,7 +36,6 @@
 <script src="scripts/jquery.isotope.min.js"></script>
 <script src="scripts/jquery.jcarousel.js"></script>
 <script src="scripts/jquery.fancybox.min.js"></script>
-<script src="scripts/jquery.layerslider.min.js"></script>
 <script src="scripts/custom.js"></script>
 
 <body>
@@ -117,20 +116,37 @@
 ================================================== -->
 <div id="content">
 
-<!-- LayerSlider  -->
-<section id="layerslider-container">	
-	<div id="layerslider" style="width: 1020px; height: 450px; margin: 0 auto;">
+<section >	
+	<div style="width: 100%; margin: 0 auto; background-image: url(images/slideBg.jpg); background-size: cover;
+	background-position: center; display: flex; justify-content: flex-start;  align-items: flex-start;   flex-wrap: wrap;">
 		
-		<article class="ls-layer">
-			<img src="images/slideBg.jpg" class="ls-bg" alt="">
-			<img class="ls-s4" src="images/imac.png" style="top: 70px; left: 80px;" alt=""/>
-            <img class="ls-s4" src="images/xcode.png" style="top: 100px; left: 530px;" alt=""/>
-			<h3 class="ls-s1 caption-color" style="top: 357px; left: 670px; ">Professional iOS Development Services</h3>
-		</article>
+			 <img class="ls-s4" src="images/imac.png" style="
+			 width: 40%; 
+			 align-self: flex-end; 
+			 margin-top: 5%;
+			 margin-bottom: 5%;
+			 margin-left: 10%" alt=""/>
+			
+			 <img class="ls-s4" src="images/xcode.png" style="
+			 width: 37%; 
+			 align-self: flex-start; 
+			 margin-right: 10%;
+			 margin-top: 5%;
+			 margin-left: auto" alt=""/>
+           
+		   <h3 class="ls-s1 caption-color" style="
+		    padding-left: 15px;
+			padding-right: 15px;		
+		   margin-left: auto;
+		   margin-right: 9%;
+		   margin-bottom: 5%;  
+		   margin-top: -9%;  
+		   padding-top:8px;
+		   padding-bottom:8px;
+		   text-align: center;">Professional iOS Development Services</h3>
 
 	</div>					
 </section>
-<!-- LayerSlider / End -->
 
 
 <!-- 960 Container -->
@@ -288,14 +304,9 @@
 		<!-- Twitter -->
 		<div class="five columns">
 			<h4>Twitter</h4>
-			<ul id="twitter"></ul>
-				<script>
-					jQuery(document).ready(function($){
-					$.getJSON('twitter.php', function(tweets){
-						$("#twitter").html(tz_format_twitter(tweets));
-					}); });
-				</script>
-			<div class="clearfix"></div>
+			<a class="twitter-timeline" href="https://twitter.com/shayesapps" data-tweet-limit="1" data-width="300"
+			data-height="150" data-chrome="nofooter noheader transparent noborders noscrollbar noscrollbar" data-theme="dark"></a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</div>
 
 	</div>
