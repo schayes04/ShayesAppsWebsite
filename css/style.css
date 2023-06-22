@@ -632,3 +632,5 @@ ol li ol.childlist .comment-des{float:right;width:47%;}
 .instargram{background:url(../images/social/instagram@2x.png) no-repeat 50%;background-size:50%;}
 .facebook{background:url(../images/social/facebook@2x.png) no-repeat 50%;margin:0 -4px;background-size:50%;}
 }
+@media only screen and (min-width:1px) and (max-width:970px){#imagecaption{display:none;}}
+@media only screen and (min-width:1px) and (max-width:970px){#xcodeimage{margin-left:25% !important;}}
