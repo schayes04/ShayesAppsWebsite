@@ -682,10 +682,15 @@ p {
     min-height:0;
   }
   .feature-week .feature-copy {
-    padding:32px 28px 8px;
+    padding:20px 28px 32px;
   }
-  .feature-art {
-    padding:8px 60px 30px;
+  .feature-week .feature-art {
+    grid-row:1;
+    padding:28px 28px 0;
+  }
+  .feature-week .feature-art img {
+    width:112px;
+    margin-inline:0;
   }
   .feature-pair {
     grid-template-columns:1fr;
