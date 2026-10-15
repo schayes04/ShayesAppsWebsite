@@ -705,8 +705,17 @@ p {
     flex-direction:column;
   }
   .footer-bottom {
-    margin-top:30px;
-    gap:16px;
+    margin-top:8px;
+    gap:20px;
+  }
+  .footer-bottom nav {
+    order:-1;
+  }
+  .footer-bottom nav a {
+    display:inline-flex;
+    align-items:center;
+    min-height:44px;
+    font-size:14px;
   }
   .social-links {
     gap:18px;
