@@ -146,10 +146,6 @@ p {
   padding-block:8px;
 }
 
-.text-link span[aria-hidden] {
-  margin-left:8px;
-}
-
 .blue-dot {
   color:var(--blue);
 }
