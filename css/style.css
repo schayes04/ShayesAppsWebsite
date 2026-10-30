@@ -189,10 +189,7 @@ p {
 
 .hero-icon {
   position:absolute;
-  overflow:hidden;
-  border-radius:26%;
-  background:#fafafa;
-  box-shadow:0 16px 34px #313b6617;
+  filter:drop-shadow(0 16px 34px #313b6617);
 }
 
 .hero-icon img {
@@ -286,7 +283,6 @@ p {
 .feature-art img {
   width: min(100%, 240px);
   margin-inline: auto;
-  border-radius: 22%;
 }
 
 .feature-pair {
@@ -319,7 +315,6 @@ p {
 
 .small-feature-art img {
   width: 112px;
-  border-radius: 22%;
 }
 
 .site-footer {
@@ -410,7 +405,6 @@ p {
 .catalog-art img {
   width: min(100%, 144px);
   margin-inline: auto;
-  border-radius: 22%;
 }
 
 .app-card-copy {
