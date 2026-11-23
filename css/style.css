@@ -109,9 +109,15 @@ p {
   color:var(--ink);
   font-size:15px;
   padding:10px 0;
+  transition:box-shadow .15s ease;
 }
 
-.site-header [aria-current] {
+.site-header nav a:hover {
+  text-decoration:none;
+}
+
+.site-header [aria-current],
+.site-header nav a:hover {
   box-shadow:0 2px var(--blue);
 }
 
