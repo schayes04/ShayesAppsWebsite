@@ -156,6 +156,10 @@ p {
   color:var(--blue);
 }
 
+main {
+  overflow-x:clip; /* hero orbits overflow on narrow screens; clip here so icon shadows aren't cut off */
+}
+
 .hero {
   display:grid;
   grid-template-columns:1.1fr 1fr;
@@ -174,7 +178,6 @@ p {
 }
 
 .hero-art {
-  overflow:hidden;
   position:relative;
   min-height:420px;
   background:radial-gradient(ellipse at center,#e8e6ff 0%,#f3f3fc 45%,transparent 71%);
